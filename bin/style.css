@@ -1,0 +1,128 @@
+/* Modern Dark Theme for Adrino Password Manager */
+.root {
+    -fx-font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    -fx-background-color: #1a1b26; /* Tokyo Night Dark */
+    -fx-text-fill: #a9b1d6;
+}
+
+.label {
+    -fx-text-fill: #c0caf5;
+    -fx-font-size: 14px;
+}
+
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #7aa2f7; /* Soft Blue */
+}
+
+.sub-header-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #bb9af7; /* Soft Purple */
+}
+
+.button {
+    -fx-background-color: #7aa2f7;
+    -fx-text-fill: #1a1b26;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #89b4fa;
+}
+
+.button:pressed {
+    -fx-background-color: #bb9af7;
+    -fx-translate-y: 1;
+}
+
+.button-secondary {
+    -fx-background-color: #414868;
+    -fx-text-fill: #c0caf5;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #565f89;
+}
+
+.button-danger {
+    -fx-background-color: #f7768e;
+    -fx-text-fill: #1a1b26;
+}
+
+.button-danger:hover {
+    -fx-background-color: #ff9e64;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #24283b;
+    -fx-text-fill: #c0caf5;
+    -fx-prompt-text-fill: #565f89;
+    -fx-background-radius: 8;
+    -fx-border-color: #414868;
+    -fx-border-radius: 8;
+    -fx-padding: 8;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #7aa2f7;
+    -fx-effect: dropshadow(three-pass-box, rgba(122, 162, 247, 0.3), 5, 0, 0, 0);
+}
+
+.card {
+    -fx-background-color: #24283b;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 4);
+    -fx-padding: 20;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+    -fx-base: #24283b;
+    -fx-control-inner-background: #24283b;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #1a1b26;
+    -fx-background-radius: 8 8 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-size: 35px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #7aa2f7;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: #24283b;
+    -fx-text-fill: #c0caf5;
+    -fx-border-color: transparent transparent #414868 transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #1f2335;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3b4261;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb, .scroll-bar:horizontal .thumb {
+    -fx-background-color: #565f89;
+    -fx-background-radius: 4;
+}
